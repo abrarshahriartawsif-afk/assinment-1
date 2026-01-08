@@ -1,0 +1,77 @@
+
+.inter-font {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+}
+/* nav-bar */
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+}
+#nav li {
+   list-style: none;
+       margin: 0px  34px;
+}
+#nav ul{
+    display: flex;
+}
+#nav button{
+    width: 146px;
+    height: 44px;
+    background-color: #30B688;
+    border-radius: 4px;
+}
+/* header-area */
+#header{
+background-image: url(../hero-bg.png);
+height:354px;
+text-align: center;
+margin-top: 0%;
+padding: 144px;
+}
+#header h3 {
+    margin: 0%;
+    background-color: #FFFFFF;
+    height: 19px;
+    color: #30B688;
+    padding: 4px;
+    width: 229px;
+    font-size: 16px;
+ margin-left: 485px;
+ font-weight:  500px;
+ border-radius: 16px;
+}
+#header h2{
+    font-size: 74px;
+    margin-top: 0%;
+    color: #FFFFFF;
+      margin-bottom: 0%;
+}
+#header h2 span{
+    color: #30B688;
+  
+}
+#header p{
+     color:#FFFFFF;
+     margin-top: 0%;
+     margin-bottom: 50px;
+}
+#header button{
+    height: 44px;
+    border-radius: 4px;
+    padding: 10px;
+
+} 
+ #header div {
+     display: flex;
+  flex-direction: row;
+  margin-left: 465px;
+ }
+  
+.header-button{
+     background-color: #30B688;
+}
+
+
