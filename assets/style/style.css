@@ -197,3 +197,32 @@ margin-left: 0%;
  #section button:hover {
   background-color: #2980b9;
 }
+/* footer-tag   */
+#footer{
+height: 348px;
+   background-color: rgb(1, 1, 61);
+   margin: 0%;
+}
+#footer .footer{
+    display: flex;
+    justify-content: space-between;
+   color: #F7F6F2;
+   align-items: center;
+  padding: 90px;
+  padding-bottom: 120px;
+ margin: 0%;
+ width: 1005;
+}
+#footer img{
+    margin: 0%;
+}
+#footer h2{
+    margin: 0%;
+}
+.hr{
+    color: rgb(19, 27, 32);
+}
+#footer p{
+    color: #FAFAFA;
+    text-align: center;
+}
