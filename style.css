@@ -1,27 +1,51 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: "Inter", sans-serif;
 }
 /* Nav  bar */
 nav {
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
+    padding: 24px 115px;
+}
+
+.div-1{
+    display: flex;
 }
 .div-1 h2 {
     font-size: 20px;
     font-weight: 700;
     color: #0D1B2A;
+     margin-left: 8px;
 }
-.div-1{
-    display: flex;
+
+.div-1 img{
+ height: 50px;
+ width: 50px;
 }
 .div-2 ul{
     display:flex;
     justify-content: space-between;
+     margin-top: 15px;
+}
+.div-2 ul li {
+    list-style: none;
+    margin: 0 10px 10px 10px;
+}
+.div-2 ul li a{
+    text-decoration: none;
+    color:inherit;
+    color: #575757;
 }
 .nav-button{
  background-color: #1D4ED8;
  font-size: 16px;
  font-weight: 700;
+ margin: 10px;
+ color: #FFFFFF;
+ padding: 15px;
+ border-radius: 8px;
+ border: none;
 }
